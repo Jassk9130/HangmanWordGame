@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:id="@+id/linearLayout1"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="40dip"
+		android:id="@+id/linearLayout3">
+		<TextView
+			android:text=" Score Now "
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/textViewCurrentScore"
+			android:layout_weight="30" />
+		<Button
+			android:text="- Main Menu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/gamebtnMainMenu"
+			android:layout_weight="10" />
+		<TextView
+			android:text=" Guesses Left !"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_height="wrap_content"
+			android:id="@+id/textViewGuessesLeft"
+			android:layout_width="wrap_content"
+			android:layout_weight="30" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="40dip"
+		android:id="@+id/linearLayout4">
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/txtCurrentScore"
+			android:layout_height="wrap_content"
+			android:layout_weight="24"
+			android:layout_width="wrap_content"
+			android:gravity="center" />
+		<Button
+			android:text="- Play Game "
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnStartGame"
+			android:layout_weight="0"
+			android:foregroundGravity="bottom" />
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/txtGuessesLeft"
+			android:layout_height="wrap_content"
+			android:layout_weight="31"
+			android:layout_width="wrap_content"
+			android:gravity="center" />
+	</LinearLayout>
+	<ImageView
+		
+		android:id="@+id/imgHangmanWordGame"
+		android:layout_width="match_parent"
+		android:layout_height="250dip"
+		android:layout_marginRight="0.0dp" />
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtWordToGuess"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:layout_margin="10px" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/linearLayout2"
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:paddingLeft="20dip"
+		android:paddingRight="20dip"
+		android:layout_weight="100"
+		android:layout_marginLeft="5dip">
+		<Button
+			android:text="A"
+			android:layout_height="match_parent"
+			android:id="@+id/btnA"
+			android:layout_width="40dip"
+			android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip" />
+		<Button
+			android:text="B"
+			android:layout_height="match_parent"
+			android:id="@+id/btnB"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="C"
+			android:layout_height="match_parent"
+			android:id="@+id/btnC"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="D"
+			android:layout_height="match_parent"
+			android:id="@+id/btnD"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="E"
+			android:layout_height="match_parent"
+			android:id="@+id/btnE"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="F"
+			android:layout_height="match_parent"
+			android:id="@+id/btnF"
+			android:layout_width="40dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginLeft="10dip" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/linearLayout2"
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:paddingLeft="20dip"
+		android:paddingRight="20dip"
+		android:layout_weight="100"
+		android:layout_marginLeft="5dip">
+		<Button
+			android:text="G"
+			android:layout_height="match_parent"
+			android:id="@+id/btnG"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="H"
+			android:layout_height="match_parent"
+			android:id="@+id/btnH"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="I"
+			android:layout_height="match_parent"
+			android:id="@+id/btnI"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="J"
+			android:layout_height="match_parent"
+			android:id="@+id/btnJ"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="K"
+			android:layout_height="match_parent"
+			android:id="@+id/btnK"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="L"
+			android:layout_height="match_parent"
+			android:id="@+id/btnL"
+			android:layout_width="40dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginLeft="10dip" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/linearLayout2"
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:paddingLeft="20dip"
+		android:paddingRight="20dip"
+		android:layout_weight="100"
+		android:layout_marginLeft="5dip">
+		<Button
+			android:text="M"
+			android:layout_height="match_parent"
+			android:id="@+id/btnM"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="N"
+			android:layout_height="match_parent"
+			android:id="@+id/btnN"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="O"
+			android:layout_height="match_parent"
+			android:id="@+id/btnO"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="P"
+			android:layout_height="match_parent"
+			android:id="@+id/btnP"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="Q"
+			android:layout_height="match_parent"
+			android:id="@+id/btnQ"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="R"
+			android:layout_height="match_parent"
+			android:id="@+id/btnR"
+			android:layout_width="40dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginLeft="10dip" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/linearLayout2"
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:paddingLeft="20dip"
+		android:paddingRight="20dip"
+		android:layout_weight="100"
+		android:layout_marginLeft="5dip">
+		<Button
+			android:text="S"
+			android:layout_height="match_parent"
+			android:id="@+id/btnS"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="T"
+			android:layout_height="match_parent"
+			android:id="@+id/btnT"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="U"
+			android:layout_height="match_parent"
+			android:id="@+id/btnU"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="V"
+			android:layout_height="match_parent"
+			android:id="@+id/btnV"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="W"
+			android:layout_height="match_parent"
+			android:id="@+id/btnW"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="X"
+			android:layout_height="match_parent"
+			android:id="@+id/btnX"
+			android:layout_width="40dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginLeft="10dip" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/linearLayout2"
+		android:layout_width="match_parent"
+		android:layout_height="45dip"
+		android:layout_weight="100"
+		android:paddingLeft="140dip">
+		<Button
+			android:text="Y"
+			android:layout_height="match_parent"
+			android:id="@+id/btnY"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+		<Button
+			android:text="Z"
+			android:layout_height="match_parent"
+			android:id="@+id/btnZ"
+			android:layout_width="40dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" />
+	</LinearLayout>
+</LinearLayout>

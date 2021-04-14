@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<ImageView
+		android:background="@mipmap/background"
+		android:layout_width="match_parent"
+		android:layout_height="350dip"
+		android:id="@+id/imgHangmanMain" />
+   
+    <Button
+        android:text=" Start New Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnStartNewGameScreen" />
+    
+    <Button
+       android:text="High Score"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/btnHighScore" />
+    <Button
+		android:text="Edit Database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEditDatabase" />
+    
+     <Button
+        android:text="Quit Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnQuitGame" />
+ 
+</LinearLayout>

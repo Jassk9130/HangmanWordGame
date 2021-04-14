@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="10px">
+	<ImageView
+		android:background="@mipmap/hang0"
+		android:layout_width="match_parent"
+		android:layout_height="480px"
+		android:id="@+id/imgHangmanPlayerProfile"
+		android:layout_marginTop="20px"
+		android:layout_marginBottom="50px" />
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text=" Please Enter / Select Player Name !"
+		android:id="@+id/textViewh1"
+		android:layout_marginBottom="50px" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+		<EditText
+			android:inputType="textPersonName"
+			android:layout_width="100dip"
+			android:layout_height="match_parent"
+			android:id="@+id/txtEnterName"
+			android:layout_weight="50"
+			android:layout_marginBottom="50px" />
+		<Button
+			android:text="Add Name"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/btnAddProfile"
+			android:layout_marginBottom="50px" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2">
+		<TextView
+			android:text="  Name"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView2"
+			android:layout_weight="50"/>
+		<TextView
+			android:text="Score"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView3"
+			android:layout_weight="60" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout3">
+		<Spinner
+			android:id="@+id/selectPlayerSpinner"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="100"
+			android:layout_marginBottom="50px"
+			android:layout_marginLeft="20px" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/linearLayout4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<Button
+			android:text="- Start New Game -"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/btnStartGame" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout5">
+		<Button
+			android:text="Back To Main Menu"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/btnGobackToMainMenu" />
+	</LinearLayout>
+</LinearLayout>
